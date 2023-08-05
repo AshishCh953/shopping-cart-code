@@ -1,0 +1,164 @@
+
+
+.bundle-save {
+    width: 500px;
+    margin: 0 auto;
+    padding: 70px;
+    border: 1px solid #ccc;
+    font-family: sans-serif;
+    position: relative;
+  }
+  
+  .bundle-save h1 {
+    font-size: 25px;
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+    color: green;
+  }
+  
+  .bundle-save h1::before,
+  .bundle-save h1::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 140px;
+    height: 1px;
+    opacity:0.3;
+    background-color: #000;
+  }
+  
+  .bundle-save h1::before {
+    left: 0;
+    transform: translate(1%, -50%);
+  }
+  
+  .bundle-save h1::after {
+    right: 0;
+    transform: translate(-1%, -50%);
+  }
+  
+  .price-box1,
+  .price-box2, 
+  .price-box3 {
+    border: 1px solid;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    position: relative;
+  }
+  .price-box2{
+    border-color:green;
+    height:200px;
+    background-color:rgb(227, 248, 228);
+    
+  }
+  
+  .Size{
+    position:absolute;
+    top:65px;
+    left: 30px;
+  }
+  
+  .Colour{
+    position:absolute;
+    top:65px;
+    left: 120px;
+  }
+  
+  .Mostpop{
+    color:green;
+    font-size: large;
+    position:absolute;
+    font-weight:bold;
+    left:370px;
+    top:4px;
+    font-family:sans-serif
+  }
+  .Strikedtxt{
+    opacity:0.4;
+    font-size:14;
+    text-decoration:line-through;
+    position:absolute;
+    left:200px;
+    top: 30px;
+  }
+  .dropdowns,
+  .dropdownrow{
+    border-radius:3px;
+    height: 30px;
+    font-size:18;
+    padding:9;
+  }
+  .bundle-label {
+    display: flex;
+    align-items: center;
+  
+  }
+  
+  .bundle-content {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+  }
+  
+  .price-box input[type="radio"] {
+    margin-right: 12
+  }
+  
+  .price-discount {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 10px; 
+  }
+  
+  .price {
+    color: #000;
+    font-weight: light;
+    border-radius: 5px;
+  }
+  
+  .discount1,
+  .discount2,
+  .discount3 {
+    color: black;
+    font-size: 16px;
+    margin-top: 5px;
+    position: absolute;
+    top: 40px; 
+    right: 20px; 
+  }
+  
+  .FreeShipping{
+    color:green;
+  }
+  
+  .Total{
+    position:absolute;
+    top: 585px;
+    left:445px;
+  }
+  
+  
+  .add-to-cart-button {
+    background-color: green;
+    height: 45px;
+    width: 100%;
+    border: none;
+    padding: 9px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    margin-top: 10px;
+    position: relative;
+  }
+  
+  .copyright{
+   font-size:14;
+   font-style: italic;
+   text-align:right;
+   opacity:0.8
+  }
+  
